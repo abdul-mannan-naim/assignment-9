@@ -1,0 +1,89 @@
+.about-robots p {
+    font-size: 18px;
+    color: silver;
+}
+
+.about-robots h2 {
+    font-size: 22px;
+    color: skyblue;
+}
+
+.about-robots {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 160px;
+
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+.first-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.text-box {
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    bottom: 70px;
+    right: 270px;
+    background-color: rgb(213, 67, 96);
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(187, 208, 226);
+    font-size: 18px;
+    border: 3px solid whitesmoke;
+
+}
+
+.btn:hover::after {
+    content: '...';
+    color: aqua;
+    font-size: 25px;
+
+}
+
+.robot img {
+    border-radius: 30px;
+    margin-right: 15px;
+    margin-top: 20px;
+    width: 500px;
+    height: 450px;
+}
+
+.comments {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin-left: 300px;
+}
+
+.engineers {
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    color: rgb(213, 67, 96);
+}
+
+.allComments {
+    margin-bottom: 250px;
+    margin-top: 50px;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 8px;
+    color:silver;
+    background-color: rgb(213, 67, 96);
+    border: 2px solid brown;
+}
+.allComments:hover{
+    color: bisque;
+}

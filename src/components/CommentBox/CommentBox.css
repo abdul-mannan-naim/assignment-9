@@ -1,0 +1,58 @@
+
+.cart{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 410px;
+    height: 80px;
+    border: 1px solid silver;
+    border-radius:8px 8px 0 0;
+    margin-left: 15px;
+    border-bottom: 0;
+    margin-top: 15px;
+    background-color: antiquewhite;
+    
+}
+.picture img{
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 8px;
+    width: 60px;
+    height: 70px;
+}
+.details{
+margin-right: 25px;
+}
+.details h4, p{
+    color: rgb(144, 144, 18);
+margin: 0%;
+}
+.comment{
+    display: grid;
+    grid-template-rows: repeat(1fr 1fr);
+    align-items: center;
+    justify-content: center;
+
+    width: 410px;
+    height: 100px;
+    background-color: #96c0dc;
+    color: white;
+    border-radius: 0 0 8px 8px;
+    margin-left: 15px;
+border: 1px solid silver;
+border-top: 0;
+
+}
+.rating{
+    color: darkgoldenrod;
+}
+.Rating{
+    color: brown;
+}
+.opinion{
+    color: aliceblue;
+}
+.p{
+    color: brown;
+}
